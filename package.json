@@ -1,6 +1,6 @@
 {
   "name": "ace-angular",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Module to use ace editor in angular js",
   "main": "ace-angular.js",
   "scripts": {
