@@ -54,11 +54,15 @@ angular.module('ace.angular',[])
 				editor.renderer.updateFull();
 			}, true);
 
-			session.on("change", function(e){
-				ngModel.$setViewValue(session.getValue());
-			});
+            session.on("change", function(e){
+                ngModel.$setViewValue(session.getValue());
+            });
 
-		}
+            ngModel.$render = function(){
+                session.setValue(ngModel.$viewValue)
+            };
+
+        }
 	}
 
 });
