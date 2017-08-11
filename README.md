@@ -1,9 +1,9 @@
 # ace-angular
 Using Ace Editor in AngularJS
 
-## Requeriments
-- AngularJS: npm install angular
-- Ace Builds: npm install ace-builds
+## Requirements
+- AngularJS: `npm install angular`
+- Ace Builds: `npm install ace-builds`
 
 ## Install
 
